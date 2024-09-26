@@ -1,0 +1,190 @@
+#signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/src/Assets/background.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    min-height: 450px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 4px rgba(16, 16, 16, 0.404); /* More subtle shadow */
+    padding: 30px;
+    width: 90%;
+    max-width: 400px; /* Ensures responsiveness */
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#signupHead {
+    margin: 0;
+    color: rgb(85, 85, 241);
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#signupInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+#sign-user{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sign-confpass{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sign-pass{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sign-email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#sign-role{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+#sign-role span{
+    font-size: smaller;
+    font-weight: lighter;
+    color: red;
+}
+
+#usernameInput{
+    width: 250px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+#useremailInput{
+    width: 250px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+#newpasswordInput{
+    width: 250px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+#confirmpasswordInput{
+    width: 250px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+#roles-sign{
+    width: 270px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+option{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#usernameInput{
+    width: 250px;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+#signupBtn2 {
+    font-size: 1.2rem;
+    background-color: rgb(85, 85, 241);
+    color: white;
+    height: 40px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+#signupBtn2:hover {
+    background-color: rgb(65, 65, 221); /* Hover effect for button */
+}
+
+a h4 {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: rgb(85, 85, 241);
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+a h4:hover {
+    color: rgb(65, 65, 221); /* Hover effect for link */
+}
+
+#signupBtn2 {
+    font-size: 1.2rem;
+    background-color: rgb(85, 85, 241);
+    color: white;
+    height: 40px;
+    padding: 5px 0;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+#signupBtn2:hover {
+    background-color: rgb(65, 65, 221); /* Hover effect for button */
+}

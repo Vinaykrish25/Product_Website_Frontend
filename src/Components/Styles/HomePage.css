@@ -1,0 +1,45 @@
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 50px;
+    height: 96vh;
+    background-image: url("C:/Users/ACER/Documents/Projects/Products_Website/frontend/src/Assets/background.png");
+    background-position: center;
+}
+.homepage-buttons{
+    display: flex;
+    gap: 80px;
+}
+.homepage-buttons a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 12px;
+}
+.login{
+    background-color: rgb(47, 47, 173);
+    color: aliceblue;
+    transition: 1s ease;
+}
+.signup{
+    background-color: aliceblue;
+    transition: 1s ease;
+}
+.login:hover{
+    border-radius: 30px;
+}
+.signup:hover{
+    border-radius: 30px;
+}
